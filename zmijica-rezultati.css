@@ -1,0 +1,43 @@
+.naslov{
+    background-color: #8eb5ca;
+    height: 75px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .igra {
+    margin: 50px;
+    border-radius: 5px;
+    border: 3px solid #5d7989;
+  }
+#prethodniIgrac{
+    margin: 50px;
+}
+#ime{
+    font-style: italic;
+}
+#tabela{
+    margin: 50px;
+    font-size: 20px;
+}
+#toppet{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+a:link,a:visited{
+    color: #2a678a;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover,a:active{
+    color: #5d7989;
+    font-weight: bold;
+    font-size: 24px;
+}
+.pocetna{
+    margin: 20px;
+}

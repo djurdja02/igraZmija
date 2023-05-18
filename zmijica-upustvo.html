@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korisnicko upustvo</title>
+    
+    <link href="zmijica-dodatno/bootstrap.css" rel="stylesheet">
+    </script>
+    <script src="zmijica-dodatno/bootstrap.bundle.min.js"></script>
+    <script src="zmijica-dodatno/jquery-3.7.0.min.js"></script>
+ <link rel="stylesheet" href="zmijica-uputstvo.css" />
+   <script src="zmijica-uputstvo.js"></script>
+
+</head>
+<body>
+  <div class="uputstvo text-center">
+    <div class="naslov">
+        <h1>Korisničko uputstvo</h1>
+    </div>
+    <div class="tekst">
+        <p>
+            Koristite tastere sa strelicama da biste pomerali zmiju po tabli sa poljima.
+            U dodiru sa hranom, povecava se rezultat i duzina zmije. 
+            Igra prestaje kada se zmija sudari sa ivicama ekrana ili sa sobom.
+            U odeljku ispod mozete izabrati velicinu tabele sa kojom zelite igrati igru i tezinu igre od koje zavisi brzina kretanja zmije.
+            Da biste pokrenuli igru, kliknite na dugme Zapocni.
+            Da biste videli stranicu sa rezultatima, kliknite na dugme Rezultati.
+        </p>
+    </div>
+    
+    <div class="panel">
+      
+      
+      <div class="col-12 velicine">
+        <br><h4 class="text-dark"> Izaberite veličinu tabele:</h4>  
+            <div class="col-12">
+            <input type="radio" id="mala" name="velicina" value="mala" checked>
+            <label for="mala">20x20</label>
+          
+            <input type="radio" id="srednja" name="velicina" value="srednja">
+            <label for="srednja">30x30</label>
+          
+            <input type="radio" id="velika" name="velicina" value="velika">
+            <label for="velika">40x40</label>
+            <br>
+        </div>
+        
+      <div class="col-12 velicine">
+        <br><h4 class="text-dark"> Izaberite težinu igre:</h4>  
+      
+        
+            <input type="radio" id="lagano" name="tezina" value="lagano" checked>
+            <label for="lagano">Lagano</label>
+          
+         
+            <input type="radio" id="srednje" name="tezina" value="srednje">
+            <label for="srednje">Srednje</label>
+         
+            <input type="radio" id="tesko" name="tezina" value="tesko">
+            <label for="tesko">Tesko</label>
+
+            <br>
+        </div>
+      </div>
+    </div>
+    <div class="dugmici">
+        <button  class="btn-basic btn-outline-info" id="zapocni">Zapocni</button>
+        <button class="btn-basic btn-outline-info" id="rezultati">Rezultati</button>
+    </div>
+  </div>
+</body>
+</html>

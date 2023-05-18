@@ -1,0 +1,35 @@
+.igra{
+    background-color: rgb(47, 52, 89);
+    height: 100%;
+}
+.tabla{
+  
+    display: flex;
+    margin: 50px;
+    justify-content:center;
+    
+}
+.rezultati{
+    min-height: 50px;
+    font-size: 20px;
+    color: #f3ebeb;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.rezultati span{
+    margin: 20px;
+    display: inline-block;
+}
+
+.dopuna{
+    min-height: 50px;
+    
+}
+html,body{
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+    background-color: rgb(47, 52, 89);
+}
